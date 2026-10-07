@@ -1,0 +1,58 @@
+# --- Secrets / environment ---
+.env
+.env.local
+*.env.local
+
+# --- Private working notes (kept locally, not published) ---
+PROGRESS.md
+
+# --- Python ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# --- Node (only used if a tool pulls it in) ---
+node_modules/
+package-lock.json
+
+# --- Runtime data ---
+uploads/
+logs/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+app.db
+
+# Scratch databases/directories created by the check_* scripts and pytest
+# (all start with an underscore, e.g. _eval_check.db, _pytest_uploads/).
+_*
+# Python package markers also start with "_", but they are NOT scratch files:
+# without them a fresh clone fails at import (app.models has no attributes).
+!**/__init__.py
+
+# --- Playwright / test artifacts ---
+test-results/
+playwright-report/
+.playwright/
+playwright/.cache/
+
+# --- Temp ---
+*.log
+_free*.txt
+_verify*.txt
+_tmp*

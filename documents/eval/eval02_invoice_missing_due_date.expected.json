@@ -1,0 +1,11 @@
+{
+  "document_type": "invoice",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "due_date": null,
+    "invoice_date": "2024-06-02",
+    "invoice_number": "INV-2002",
+    "total": "110.00",
+    "vendor.name": "Beta Industrial"
+  }
+}

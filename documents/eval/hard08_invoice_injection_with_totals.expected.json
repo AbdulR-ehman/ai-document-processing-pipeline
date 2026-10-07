@@ -1,0 +1,10 @@
+{
+  "document_type": "invoice",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "currency": "USD",
+    "invoice_date": "2024-12-01",
+    "invoice_number": "INV-3008",
+    "total": "11.00"
+  }
+}

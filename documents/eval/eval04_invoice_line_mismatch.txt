@@ -1,0 +1,21 @@
+Vendor: Delta Systems
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2004
+Invoice Date: 2024-06-04
+Due Date: 2024-07-04
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Router Unit                2      100.00        150.00
+
+Subtotal: 250.00
+Tax: 25.00
+Total: 275.00

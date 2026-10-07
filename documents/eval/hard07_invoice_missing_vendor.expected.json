@@ -1,0 +1,10 @@
+{
+  "document_type": "invoice",
+  "expected_status": "NEEDS_REVIEW",
+  "fields": {
+    "currency": "USD",
+    "invoice_number": "INV-3007",
+    "total": "132.00",
+    "vendor.name": null
+  }
+}

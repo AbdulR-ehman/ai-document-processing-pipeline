@@ -1,0 +1,21 @@
+Vendor: Zeta Credits
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2006
+Invoice Date: 2024-06-06
+Due Date: 2024-07-06
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Refund Item                1      50.00         50.00
+
+Subtotal: 50.00
+Tax: 0.00
+Total: -50.00

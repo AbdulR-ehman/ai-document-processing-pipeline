@@ -1,0 +1,14 @@
+INVOICE
+
+Invoice Number: INV-3007
+Invoice Date: 2024-11-01
+Due Date: 2024-11-30
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Unlabelled service         2      60.00         120.00
+
+Subtotal: 120.00
+Tax: 12.00
+Total: 132.00

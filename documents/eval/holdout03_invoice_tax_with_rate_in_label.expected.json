@@ -1,0 +1,13 @@
+{
+  "document_type": "invoice",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "currency": "USD",
+    "invoice_date": "2024-08-31",
+    "invoice_number": "INV-8810",
+    "subtotal": "250.00",
+    "tax": "17.50",
+    "total": "267.50",
+    "vendor.name": "Harbour Freight Ltd"
+  }
+}

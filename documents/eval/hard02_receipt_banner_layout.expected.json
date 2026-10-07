@@ -1,0 +1,9 @@
+{
+  "document_type": "receipt",
+  "expected_status": "NEEDS_REVIEW",
+  "fields": {
+    "receipt_date": "2024-04-06",
+    "receipt_number": "5521",
+    "total": "6.60"
+  }
+}

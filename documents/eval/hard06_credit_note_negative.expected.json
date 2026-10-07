@@ -1,0 +1,10 @@
+{
+  "document_type": "invoice",
+  "expected_status": "VALIDATION_FAILED",
+  "fields": {
+    "currency": "USD",
+    "invoice_date": "2024-10-05",
+    "invoice_number": "INV-3006",
+    "total": "-50.00"
+  }
+}

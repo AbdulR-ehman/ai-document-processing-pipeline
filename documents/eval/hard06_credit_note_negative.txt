@@ -1,0 +1,17 @@
+Delta Returns Ltd
+9 Warehouse Road, Testville
+
+CREDIT NOTE
+
+Invoice Number: INV-3006
+Invoice Date: 2024-10-05
+Due Date: 2024-10-05
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Returned widget            1      50.00         50.00
+
+Subtotal: 50.00
+Tax: 0.00
+Total: -50.00

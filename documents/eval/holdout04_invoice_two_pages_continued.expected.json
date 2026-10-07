@@ -1,0 +1,11 @@
+{
+  "document_type": "invoice",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "currency": "USD",
+    "invoice_date": "2024-12-24",
+    "invoice_number": "INV-9911",
+    "total": "990.00",
+    "vendor.name": "Nimbus Cloud Ltd"
+  }
+}

@@ -1,0 +1,6 @@
+TAU SYSTEMS
+Tax Invoice
+
+Invoice No INV-3004
+Date 2024-07-12
+Total EUR 990.00

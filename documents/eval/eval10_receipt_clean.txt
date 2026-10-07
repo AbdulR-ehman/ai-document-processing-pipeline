@@ -1,0 +1,18 @@
+Vendor: Green Leaf Cafe
+42 Market Street, Portland
+
+RECEIPT
+
+Receipt Number: RCP-9001
+Receipt Date: 2024-04-05
+Payment Method: VISA
+
+Item                       Qty    Unit Price    Amount
+Espresso                   2      3.50          7.00
+Muffin                     1      4.25          4.25
+
+Subtotal: $11.25
+Tax: $1.13
+Total: $12.38
+
+Thank you for your purchase!

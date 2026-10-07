@@ -1,0 +1,16 @@
+Vendor: Corner Bakery
+42 Market Street, Portland
+
+RECEIPT
+
+Receipt Date: 2024-04-06
+Payment Method: VISA
+
+Item                       Qty    Unit Price    Amount
+Croissant                  3      2.00          6.00
+
+Subtotal: $6.00
+Tax: $0.60
+Total: $6.60
+
+Thank you for your purchase!

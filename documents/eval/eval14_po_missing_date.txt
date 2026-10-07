@@ -1,0 +1,19 @@
+Vendor: Omni Supply
+88 Harbor Road, Boston
+
+PURCHASE ORDER
+
+PO Number: PO-3002
+Order Date: 2024-02-11
+
+Ship To:
+Globex Corporation
+
+Currency: USD
+
+Description          Qty    Unit Price    Amount
+Gaskets              5      4.00          20.00
+
+Subtotal: 20.00
+Tax: 2.00
+Total: 22.00

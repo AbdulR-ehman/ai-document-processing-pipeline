@@ -1,0 +1,14 @@
+INVOICE
+
+Invoice Number: INV-8810
+Invoice Date: 2024-08-31
+Due Date: 2024-09-30
+Vendor: Harbour Freight Ltd
+Currency: USD
+
+Description                  Qty   Unit Price   Amount
+Container handling           1     250.00       250.00
+
+Subtotal: 250.00
+Tax (7%): 17.50
+Total: 267.50

@@ -1,0 +1,17 @@
+Rheinwerk GmbH
+Hauptstrasse 4, Koeln
+
+RECHNUNG / INVOICE
+
+Invoice Number: INV-3003
+Invoice Date: 2024-07-12
+Due Date: 2024-08-11
+
+Currency: EUR
+
+Description                Qty    Unit Price    Amount
+Beratung                   3     411.48       1234.44
+
+Subtotal: 1.234,44
+Tax: 246,89
+Total: 1.481,33

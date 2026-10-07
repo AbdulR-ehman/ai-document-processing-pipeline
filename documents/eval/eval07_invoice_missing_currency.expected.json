@@ -1,0 +1,9 @@
+{
+  "document_type": "invoice",
+  "expected_status": null,
+  "fields": {
+    "currency": null,
+    "invoice_number": "INV-2007",
+    "total": "44.00"
+  }
+}

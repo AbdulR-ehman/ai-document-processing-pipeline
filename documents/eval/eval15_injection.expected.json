@@ -1,0 +1,10 @@
+{
+  "document_type": "invoice",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "invoice_date": "2024-05-01",
+    "invoice_number": "INV-2015",
+    "total": "11.00",
+    "vendor.name": "Evil Corp"
+  }
+}

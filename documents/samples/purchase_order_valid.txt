@@ -1,0 +1,24 @@
+NORTHWIND TRADING CO
+88 Harbor Road, Boston
+Email: sales@northwind.example
+
+PURCHASE ORDER
+
+PO Number: PO-7788
+Order Date: 2024-02-10
+Expected Delivery Date: 2024-02-24
+
+Vendor: Northwind Trading Co
+Ship To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description          Qty    Unit Price    Amount
+Steel Brackets       10     5.50          55.00
+Bolts Pack           20     1.25          25.00
+
+Subtotal: 80.00
+Tax: 0.00
+Total: 80.00

@@ -1,0 +1,10 @@
+{
+  "document_type": "invoice",
+  "expected_status": "NEEDS_REVIEW",
+  "fields": {
+    "invoice_number": "INV-2003",
+    "subtotal": "300.00",
+    "total": "999.99",
+    "vendor.name": "Gamma Works"
+  }
+}

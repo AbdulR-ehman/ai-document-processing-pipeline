@@ -1,0 +1,9 @@
+{
+  "document_type": "receipt",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "receipt_date": "2024-04-05",
+    "receipt_number": "RCP-9003",
+    "total": "11.00"
+  }
+}

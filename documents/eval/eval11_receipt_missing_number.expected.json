@@ -1,0 +1,8 @@
+{
+  "document_type": "receipt",
+  "expected_status": "NEEDS_REVIEW",
+  "fields": {
+    "receipt_number": null,
+    "total": "6.60"
+  }
+}

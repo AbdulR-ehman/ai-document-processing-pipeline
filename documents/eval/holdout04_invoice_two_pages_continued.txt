@@ -1,0 +1,19 @@
+Page 1 of 2
+NIMBUS CLOUD LTD
+INVOICE
+
+Invoice Number: INV-9911
+Invoice Date: 2024-12-24
+Vendor: Nimbus Cloud Ltd
+Currency: USD
+
+Usage - December 2024          1     900.00       900.00
+
+Subtotal: 900.00
+Tax: 90.00
+
+--- page 2 ---
+Continued...
+
+Total: 990.00
+Payment due within 30 days.

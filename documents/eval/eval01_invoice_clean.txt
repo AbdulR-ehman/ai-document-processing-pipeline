@@ -1,0 +1,22 @@
+Vendor: Acme Supplies Ltd
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2001
+Invoice Date: 2024-06-01
+Due Date: 2024-07-01
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Widget Assembly            2      100.00        200.00
+Cable Set                  5      20.00         100.00
+
+Subtotal: 300.00
+Tax: 30.00
+Total: 330.00

@@ -1,0 +1,9 @@
+# Development / test / security tooling (pinned). Not needed to run the app.
+-r requirements.txt
+pytest==9.1.1
+pytest-cov==7.1.0
+httpx==0.28.1
+pip-audit==2.10.1
+bandit==1.9.4
+# Browser tests: after installing, run `python -m playwright install chromium`.
+playwright==1.63.0

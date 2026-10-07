@@ -1,0 +1,13 @@
+--------------------------------------------------
+CORNER BAKERY - Thank you for your visit!
+--------------------------------------------------
+
+Receipt Number: 5521
+Receipt Date: 2024-04-06
+
+Item                     Qty    Price     Amount
+Croissant                 3     2.00      6.00
+
+Subtotal: 6.00
+Tax: 0.60
+Total: 6.60

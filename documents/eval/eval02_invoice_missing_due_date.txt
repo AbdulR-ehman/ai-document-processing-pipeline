@@ -1,0 +1,20 @@
+Vendor: Beta Industrial
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2002
+Invoice Date: 2024-06-02
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Bolt Pack                  4      25.00         100.00
+
+Subtotal: 100.00
+Tax: 10.00
+Total: 110.00

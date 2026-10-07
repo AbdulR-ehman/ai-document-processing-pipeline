@@ -1,0 +1,21 @@
+Vendor: Gamma Works
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2003
+Invoice Date: 2024-06-03
+Due Date: 2024-07-03
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Service Call               1      300.00        300.00
+
+Subtotal: 300.00
+Tax: 30.00
+Total: 999.99

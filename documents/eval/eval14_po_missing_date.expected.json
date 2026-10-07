@@ -1,0 +1,10 @@
+{
+  "document_type": "purchase_order",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "expected_delivery_date": null,
+    "order_date": "2024-02-11",
+    "po_number": "PO-3002",
+    "total": "22.00"
+  }
+}

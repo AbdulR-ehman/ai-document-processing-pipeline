@@ -1,0 +1,336 @@
+{
+  "provider": "mock",
+  "documents": [
+    {
+      "document": "eval01_invoice_clean.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 10,
+      "fields_correct": 10,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval02_invoice_missing_due_date.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 5,
+      "fields_correct": 5,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval03_invoice_wrong_total.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval04_invoice_line_mismatch.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval05_invoice_named_month_date.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval06_invoice_negative_total.txt",
+      "expected_status": "VALIDATION_FAILED",
+      "actual_status": "VALIDATION_FAILED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 2,
+      "fields_correct": 2,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval07_invoice_missing_currency.txt",
+      "expected_status": null,
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 3,
+      "fields_correct": 3,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval08_invoice_due_before.txt",
+      "expected_status": "VALIDATION_FAILED",
+      "actual_status": "VALIDATION_FAILED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 3,
+      "fields_correct": 3,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval09_invoice_thousands.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 5,
+      "fields_correct": 5,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval10_receipt_clean.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "receipt",
+      "actual_type": "receipt",
+      "fields_expected": 7,
+      "fields_correct": 7,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval11_receipt_missing_number.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "receipt",
+      "actual_type": "receipt",
+      "fields_expected": 2,
+      "fields_correct": 2,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval12_receipt_odd_date.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "receipt",
+      "actual_type": "receipt",
+      "fields_expected": 3,
+      "fields_correct": 3,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval13_po_clean.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "purchase_order",
+      "actual_type": "purchase_order",
+      "fields_expected": 7,
+      "fields_correct": 7,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval14_po_missing_date.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "purchase_order",
+      "actual_type": "purchase_order",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval15_injection.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval16_unknown_type.txt",
+      "expected_status": null,
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": null,
+      "actual_type": "invoice",
+      "fields_expected": 0,
+      "fields_correct": 0,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "eval17_invoice_markdown.md",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 5,
+      "fields_correct": 5,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "hard01_invoice_impossible_date.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 8,
+      "fields_correct": 8,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "hard02_receipt_banner_layout.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "receipt",
+      "actual_type": "receipt",
+      "fields_expected": 3,
+      "fields_correct": 3,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "hard03_invoice_euro_format.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 5,
+      "fields_correct": 5,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "hard04_invoice_colonless_labels.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "hard05_invoice_unicode_vendor.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 5,
+      "fields_correct": 5,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "hard06_credit_note_negative.txt",
+      "expected_status": "VALIDATION_FAILED",
+      "actual_status": "VALIDATION_FAILED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "hard07_invoice_missing_vendor.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "hard08_invoice_injection_with_totals.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 4,
+      "fields_correct": 4,
+      "mismatches": [],
+      "passed": true
+    },
+    {
+      "document": "holdout01_dot_leader_invoice.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 3,
+      "fields_correct": 1,
+      "mismatches": [
+        "invoice_date: want '2024-03-14' got None",
+        "invoice_number: want 'INV-7781' got None"
+      ],
+      "passed": false
+    },
+    {
+      "document": "holdout02_receipt_tax_included_total.txt",
+      "expected_status": "NEEDS_REVIEW",
+      "actual_status": "NEEDS_REVIEW",
+      "expected_type": "receipt",
+      "actual_type": "receipt",
+      "fields_expected": 2,
+      "fields_correct": 1,
+      "mismatches": [
+        "total: want '13.50' got None"
+      ],
+      "passed": false
+    },
+    {
+      "document": "holdout03_invoice_tax_with_rate_in_label.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 7,
+      "fields_correct": 6,
+      "mismatches": [
+        "tax: want '17.50' got None"
+      ],
+      "passed": false
+    },
+    {
+      "document": "holdout04_invoice_two_pages_continued.txt",
+      "expected_status": "COMPLETED",
+      "actual_status": "COMPLETED",
+      "expected_type": "invoice",
+      "actual_type": "invoice",
+      "fields_expected": 5,
+      "fields_correct": 5,
+      "mismatches": [],
+      "passed": true
+    }
+  ],
+  "documents_passed": 26,
+  "documents_total": 29,
+  "field_accuracy": 0.9683,
+  "fields_correct": 122,
+  "fields_total": 126
+}

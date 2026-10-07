@@ -1,0 +1,10 @@
+{
+  "document_type": "invoice",
+  "expected_status": "NEEDS_REVIEW",
+  "fields": {
+    "invoice_number": "INV-2004",
+    "line_items[0].total": "150.00",
+    "line_items[0].unit_price": "100.00",
+    "total": "275.00"
+  }
+}

@@ -1,0 +1,17 @@
+Vendor: Dockside Diner
+42 Market Street, Portland
+
+RECEIPT
+
+Receipt Number: RCP-9003
+Receipt Date: 05 Apr 2024
+Payment Method: VISA
+
+Item                       Qty    Unit Price    Amount
+Sandwich                   2      5.00          10.00
+
+Subtotal: $10.00
+Tax: $1.00
+Total: $11.00
+
+Thank you for your purchase!

@@ -1,0 +1,12 @@
+ACME INDUSTRIAL
+Invoice
+
+Ref ................ INV-7781
+Issued .............. 14.03.2024
+Terms ............... Net 30
+
+                     Item                Amount
+                     Bolt kit            $1,250.00
+                     Freight                 $50.00
+                                           --------
+                     Total due          $1,300.00

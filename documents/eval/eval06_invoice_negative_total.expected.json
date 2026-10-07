@@ -1,0 +1,8 @@
+{
+  "document_type": "invoice",
+  "expected_status": "VALIDATION_FAILED",
+  "fields": {
+    "invoice_number": "INV-2006",
+    "total": "-50.00"
+  }
+}

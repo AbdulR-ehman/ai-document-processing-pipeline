@@ -1,0 +1,17 @@
+Ünïcode Vendör GmbH
+Rue de l'Église 12, Zürich
+
+INVOICE
+
+Invoice Number: INV-3005
+Invoice Date: 2024-09-01
+Due Date: 2024-09-30
+
+Currency: CHF
+
+Description                Qty    Unit Price    Amount
+Übersetzung                1      1500.00       1500.00
+
+Subtotal: 1500.00
+Tax: 0.00
+Total: 1500.00

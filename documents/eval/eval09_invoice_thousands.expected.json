@@ -1,0 +1,11 @@
+{
+  "document_type": "invoice",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "invoice_number": "INV-2009",
+    "line_items[0].total": "1250.00",
+    "subtotal": "1250.00",
+    "tax": "125.00",
+    "total": "1375.00"
+  }
+}

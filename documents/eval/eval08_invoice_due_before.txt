@@ -1,0 +1,21 @@
+Vendor: Theta Co
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2008
+Invoice Date: 2024-03-01
+Due Date: 2024-01-15
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Part                       1      10.00         10.00
+
+Subtotal: 10.00
+Tax: 1.00
+Total: 11.00

@@ -1,0 +1,13 @@
+{
+  "document_type": "receipt",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "currency": "USD",
+    "receipt_date": "2024-04-05",
+    "receipt_number": "RCP-9001",
+    "subtotal": "11.25",
+    "tax": "1.13",
+    "total": "12.38",
+    "vendor.name": "Green Leaf Cafe"
+  }
+}

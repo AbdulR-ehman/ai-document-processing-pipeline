@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Document Processing Pipeline</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <!-- ============ AUTH ============ -->
+  <section id="auth-view" class="auth hidden">
+    <div class="auth-card">
+      <h1>AI Document Processing Pipeline</h1>
+      <p class="muted">Upload &rarr; extract &rarr; validate &rarr; duplicate-check &rarr; review &rarr; export</p>
+      <div class="tabs" role="tablist">
+        <button id="tab-login" class="tab active" type="button">Sign in</button>
+        <button id="tab-register" class="tab" type="button">Create account</button>
+      </div>
+      <form id="auth-form" autocomplete="on">
+        <label for="auth-email">Email</label>
+        <input id="auth-email" name="email" type="email" required maxlength="255"
+               placeholder="you@example.com" autocomplete="email">
+        <label for="auth-password">Password</label>
+        <input id="auth-password" name="password" type="password" required maxlength="200"
+               placeholder="At least 10 characters, with a letter and a digit"
+               autocomplete="current-password">
+        <p class="hint" id="password-hint" hidden>At least 10 characters, including a letter and a digit.</p>
+        <button class="primary" id="auth-submit" type="submit">Sign in</button>
+        <p class="error" id="auth-error" role="alert"></p>
+      </form>
+      <p class="muted small">The first account created on a fresh deployment becomes the administrator.</p>
+    </div>
+  </section>
+
+  <!-- ============ APP ============ -->
+  <div id="app-view" class="hidden">
+    <header class="topbar">
+      <div class="brand">AI Document Processing Pipeline</div>
+      <nav id="nav">
+        <button data-view="dashboard" class="nav-btn active" type="button">Dashboard</button>
+        <button data-view="documents" class="nav-btn" type="button">Documents</button>
+        <button data-view="review" class="nav-btn" type="button">Review queue</button>
+        <button data-view="audit" class="nav-btn" type="button">Audit log</button>
+      </nav>
+      <div class="who">
+        <span id="who-email" class="muted"></span>
+        <span id="who-role" class="badge"></span>
+        <button id="logout-btn" class="ghost" type="button">Sign out</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- dashboard -->
+      <section id="view-dashboard" class="view">
+        <div class="cards" id="stats-cards"></div>
+        <div class="panel">
+          <h2>Approved totals</h2>
+          <div id="approved-totals"></div>
+        </div>
+      </section>
+
+      <!-- documents -->
+      <section id="view-documents" class="view hidden">
+        <div class="toolbar">
+          <form id="upload-form" class="upload">
+            <input id="file-input" type="file" name="file" accept=".pdf,.txt,.md" required>
+            <button class="primary" type="submit" id="upload-btn">Upload &amp; process</button>
+            <span class="muted small" id="upload-limit"></span>
+          </form>
+          <form id="filters-form" class="filters">
+            <input id="f-search" type="search" placeholder="Search number / vendor / file" maxlength="80">
+            <select id="f-status">
+              <option value="">Any status</option>
+            </select>
+            <select id="f-type">
+              <option value="">Any type</option>
+            </select>
+            <button type="submit">Filter</button>
+            <button type="button" id="f-reset" class="ghost">Reset</button>
+          </form>
+        </div>
+        <div class="panel">
+          <table class="data" id="docs-table">
+            <thead>
+              <tr>
+                <th>File</th><th>Type</th><th>Number</th><th>Vendor</th>
+                <th>Total</th><th>Status</th><th>Duplicate</th><th>Uploaded</th><th></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <div class="pager" id="docs-pager"></div>
+        </div>
+      </section>
+
+      <!-- review queue -->
+      <section id="view-review" class="view hidden">
+        <div class="panel">
+          <h2>Needs review</h2>
+          <table class="data" id="review-table">
+            <thead>
+              <tr><th>File</th><th>Type</th><th>Number</th><th>Total</th><th>Why</th><th></th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- audit -->
+      <section id="view-audit" class="view hidden">
+        <div class="toolbar">
+          <form id="audit-filters" class="filters">
+            <select id="a-action">
+              <option value="">Any action</option>
+            </select>
+            <label class="check"><input type="checkbox" id="a-all"> Global (admin)</label>
+            <button type="submit">Apply</button>
+          </form>
+        </div>
+        <div class="panel">
+          <table class="data" id="audit-table">
+            <thead>
+              <tr><th>Time</th><th>Actor</th><th>Action</th><th>Target</th><th>Outcome</th><th>Detail</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <div class="pager" id="audit-pager"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ============ DETAIL DRAWER ============ -->
+  <div id="drawer-backdrop" class="backdrop hidden"></div>
+  <aside id="drawer" class="drawer hidden" aria-label="Document detail">
+    <header class="drawer-head">
+      <div>
+        <h2 id="drawer-title">Document</h2>
+        <div id="drawer-badges"></div>
+      </div>
+      <button id="drawer-close" class="ghost" type="button">Close</button>
+    </header>
+    <div class="drawer-actions" id="drawer-actions"></div>
+    <div id="drawer-body"></div>
+  </aside>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

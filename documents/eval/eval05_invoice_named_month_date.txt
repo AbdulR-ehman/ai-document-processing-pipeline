@@ -1,0 +1,21 @@
+Vendor: Epsilon Ltd
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2005
+Invoice Date: March 5, 2024
+Due Date: April 4, 2024
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Consulting                 1      500.00        500.00
+
+Subtotal: 500.00
+Tax: 0.00
+Total: 500.00

@@ -1,0 +1,10 @@
+# Runtime dependencies (pinned). Installed from the official PyPI registry only.
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+pydantic==2.13.5
+python-multipart==0.0.32
+SQLAlchemy==2.1.1
+pypdf==6.19.0
+PyJWT==2.15.1
+argon2-cffi==25.1.0
+python-dotenv==1.2.4

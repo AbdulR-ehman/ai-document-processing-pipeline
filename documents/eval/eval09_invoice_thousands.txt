@@ -1,0 +1,21 @@
+Vendor: Iota Hardware
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2009
+Invoice Date: 2024-06-09
+Due Date: 2024-07-09
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Server Rack                1      1,250.00      1,250.00
+
+Subtotal: 1,250.00
+Tax: 125.00
+Total: 1,375.00

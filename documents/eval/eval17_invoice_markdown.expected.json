@@ -1,0 +1,11 @@
+{
+  "document_type": "invoice",
+  "expected_status": "COMPLETED",
+  "fields": {
+    "due_date": "2024-08-31",
+    "invoice_date": "2024-08-01",
+    "invoice_number": "INV-2017",
+    "total": "330.00",
+    "vendor.name": "Kappa Services"
+  }
+}

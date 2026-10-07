@@ -1,0 +1,20 @@
+Vendor: Eta Traders
+1 Test Street, Testville
+
+INVOICE
+
+Invoice Number: INV-2007
+Invoice Date: 2024-06-07
+Due Date: 2024-07-07
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+
+Description                Qty    Unit Price    Amount
+Panel                      1      40.00         40.00
+
+Subtotal: 40.00
+Tax: 4.00
+Total: 44.00

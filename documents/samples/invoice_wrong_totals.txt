@@ -1,0 +1,25 @@
+ACME SUPPLIES LTD
+123 Industrial Park Road, Springfield
+Email: billing@acmesupplies.example
+
+INVOICE
+
+Invoice Number: INV-1001
+Invoice Date: 2024-03-01
+Due Date: 2024-03-31
+
+Bill To:
+Globex Corporation
+500 Sunset Boulevard, Metropolis
+
+Currency: USD
+
+Description                Qty    Unit Price    Amount
+Widget Assembly            2      10.00         20.00
+Shipping Service           1      5.00          5.00
+
+Subtotal: 25.00
+Tax: 2.50
+Total: 99.99
+
+Payment terms: Net 30.
